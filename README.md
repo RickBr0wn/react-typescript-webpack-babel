@@ -1,7 +1,5 @@
 # react-typescript-webpack-babel
 
-(https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://github.com/RickBr0wn/react-typescript-webpack-babel?branch=master)
-
 A boilerplate for a Webpack bundled React project using Typescript and Babel.
 
 ## Getting Started
