@@ -9,7 +9,7 @@
     "build": "webpack --mode production --progress --hide-modules"
   },
   "keywords": [],
-  "author": "Rick Brown <ricky.brown.00@gmail.com> (https://github.com/RickBr0wn/minimal-react-boilerplate)",
+  "author": "Rick Brown <ricky.brown.00@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.4",
