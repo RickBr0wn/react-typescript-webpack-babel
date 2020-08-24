@@ -1,7 +1,8 @@
 const path = require('path')
 
 module.exports = {
-  entry: './index.js',
+  entry: './index.tsx',
+  devtool: 'inline-source-map',
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
@@ -13,15 +14,31 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js)x?$/,
+        test: /\.(tsx|ts|jsx|js)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
         },
       },
+      {
+        test: /\.(tsx|ts)?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/i,
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+        },
+      },
     ],
   },
   resolve: {
-    extensions: ['.jsx', '.js'],
+    extensions: ['.tsx', '.ts', '.jsx', '.js'],
   },
 }
