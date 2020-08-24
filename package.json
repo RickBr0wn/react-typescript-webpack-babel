@@ -12,8 +12,14 @@
   "author": "Rick Brown <ricky.brown.00@gmail.com> (https://github.com/RickBr0wn/minimal-react-boilerplate)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "babel-loader": "^8.1.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
