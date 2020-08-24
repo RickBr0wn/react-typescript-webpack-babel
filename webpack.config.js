@@ -10,4 +10,18 @@ module.exports = {
     contentBase: path.resolve(__dirname, './dist'),
     port: 3000,
   },
+  module: {
+    rules: [
+      {
+        test: /\.(js)x?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+        },
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.jsx', '.js'],
+  },
 }
