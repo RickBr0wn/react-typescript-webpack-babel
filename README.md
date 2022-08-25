@@ -54,6 +54,7 @@ yarn test:coverage
 - [eslint](https://eslint.org) - Statically analyzes your code to quickly find problems.
 - [prettier](https://prettier.io) - An opinionated code formatter.
 - [husky](https://github.com/typicode/husky) - Git hooks made easy.
+- [react testing library](https://testing-library.com/docs/) - The _@testing-library_ family of packages helps you test UI components in a user-centric way.
 
 ## Contributing
 
@@ -61,11 +62,11 @@ yarn test:coverage
 
 ## Author(s)
 
-- **Rick Brown** - _Initial work_ - [RickBr0wn](https://github.com/RickBr0wn)
+- [RickBr0wn](https://github.com/RickBr0wn) - _Initial work_
 
 ## Contributor(s)
 
-- **Rahim Alwer** - feat: adds react testing library - [Rahim Alwer](https://github.com/mihar-22)
+- [Rahim Alwer](https://github.com/mihar-22) - _feat: adds react testing library_
 
 ## License
 
