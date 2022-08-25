@@ -63,6 +63,10 @@ yarn test:coverage
 
 - **Rick Brown** - _Initial work_ - [RickBr0wn](https://github.com/RickBr0wn)
 
+## Contributor(s)
+
+- **Rahim Alwer** - feat: adds react testing library - [Rahim Alwer](https://github.com/mihar-22)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](<[LICENSE.md](https://gist.github.com/RickBr0wn/5f95ee6118bb32034e2b94acbd88a99d)>) file for details
